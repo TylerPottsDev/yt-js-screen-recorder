@@ -1,0 +1,16 @@
+{
+	"name": "demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwindcss -i src/tailwind.css -o dist/tailwind.css --watch",
+		"server": "live-server . --no-css-inject"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^2.2.15"
+	}
+}
